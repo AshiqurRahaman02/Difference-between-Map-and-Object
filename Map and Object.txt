@@ -1,0 +1,22 @@
+In JavaScript, both Map and Object are used to store key-value pairs, but they have some important differences. 
+
+
+
+
+Map is a built-in object that is used to store key-value pairs where the key can be any value (not just a string), and the order of elements is preserved. 
+It has built-in methods such as set(), get(), has(), delete(), and clear(). 
+
+Object is a built-in object that is used to store key-value pairs where the key must be a string or a symbol, and the order of elements is not guaranteed. 
+It does not have built-in methods like Map but you can add properties and methods to it. 
+
+
+
+Map has a size property that tells you how many key-value pairs are in the map, while Object does not have this property. 
+
+
+Map is iterable, which means you can use for...of loop and other iteration methods to access its key-value pairs, whereas Object is not iterable by default. 
+
+
+Map is a better option when you need to store key-value pairs where the key can be any value, you need to preserve the order of elements, or you need to efficiently look up the size of the collection. 
+
+Object is more appropriate when you need to store key-value pairs where the key must be a string or a symbol and you don't need to preserve the order of elements.
